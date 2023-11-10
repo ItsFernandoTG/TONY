@@ -68,8 +68,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'omegalinks.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '925ce304ae50a9f6670696fd92040afc7de2ac95')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -78,11 +78,11 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://omegalinks.in/ref/GreyMatter6458"
+DOWNLOAD_TEXT_NAME = "@Team_TonyOffl❤‍🔥"
+DOWNLOAD_TEXT_URL = "https://t.me/Team_TonyOffl"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://youtube.com/@GreyMattersYT"
+CAPTION_BUTTON = "Join"
+CAPTION_BUTTON_URL = "https://t.me/Team_TonyOffl"
 
    # Auto Delete For Bot Sending Files #
